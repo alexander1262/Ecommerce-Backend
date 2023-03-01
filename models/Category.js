@@ -6,7 +6,34 @@ class Category extends Model {}
 
 Category.init(
   {
-    // define columns
+    Shirts: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
+  },
+  {
+    Shorts: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
+  },
+  {
+    Music: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
+  },
+  {
+    Hats: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
+  },
+  {
+    Shoes: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
   },
   {
     sequelize,
